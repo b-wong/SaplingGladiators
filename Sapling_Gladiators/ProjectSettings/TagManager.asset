@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Attack
+  - Tackle
+  - Obstacle
+  - Twig
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Gladiators
+  - Items
+  - Effects
+  - Obstacles
+  - IgnorePlayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 1731414675
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 975082883
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1595839855
+    locked: 0
+  - name: Effects
+    uniqueID: 599277475
+    locked: 0
+  - name: Gladiators
+    uniqueID: 2576526365
+    locked: 0
+  - name: Items
+    uniqueID: 1772804737
+    locked: 0
+  - name: End
+    uniqueID: 1917807053
+    locked: 0
+  - name: UI
+    uniqueID: 3235606479
+    locked: 0
