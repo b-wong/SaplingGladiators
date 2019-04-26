@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spinningSpeed: 270
-  movementSpeed: 6
+  movementSpeed: 9
 --- !u!60 &1470135687706535796
 PolygonCollider2D:
   m_ObjectHideFlags: 0

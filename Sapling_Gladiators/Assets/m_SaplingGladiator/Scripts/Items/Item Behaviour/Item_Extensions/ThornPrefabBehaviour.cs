@@ -5,12 +5,12 @@ using UnityEngine;
 public class ThornPrefabBehaviour : MonoBehaviour
 {
     public Transform owner;
-    public string enemyNumber;
     public float duration;
     public float spinningSpeed;
     public Vector3 offset;
     public GameObject damageEffect;
     public float damageEffectDuration;
+    public Player myPlayer;
 
     void Start()
     {
@@ -40,11 +40,10 @@ public class ThornPrefabBehaviour : MonoBehaviour
     {
         if (collision.GetComponent<Player>())
         {
-            Player enemy = collision.GetComponent<Player>();
-            if (collision.GetComponent<Player>().enemyPlayer == enemy)
+            if (collision.GetComponent<Player>() == myPlayer.enemyPlayer)
             {
-                StartCoroutine(DamageEffect(damageEffectDuration, enemy.transform.position));
-                enemy.playerHealth.Damage(1);
+                StartCoroutine(DamageEffect(damageEffectDuration, myPlayer.enemyPlayer.transform.position));
+                myPlayer.enemyPlayer.playerHealth.Damage(1);
             }
 
         }

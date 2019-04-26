@@ -51,8 +51,8 @@ public class Thorns : Item
         SpawnEffect(myPlayer.transform.position, useTime);
         GameObject _tempGameObject = Instantiate(thornsPrefab, myPlayer.transform.position,Quaternion.identity);
         _tempGameObject.GetComponent<ThornPrefabBehaviour>().owner = transform;
-        _tempGameObject.GetComponent<ThornPrefabBehaviour>().enemyNumber = myPlayer.enemyPlayer.playerNumber;
         _tempGameObject.GetComponent<ThornPrefabBehaviour>().duration=useTime;
+        _tempGameObject.GetComponent<ThornPrefabBehaviour>().myPlayer = myPlayer;
         yield return new WaitForSeconds(useTime);
         OnActivateEnd(myPlayer);
     }

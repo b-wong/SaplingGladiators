@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3321991587089631838}
   - component: {fileID: 5999907577866340145}
   m_Layer: 5
-  m_Name: HealthText
+  m_Name: PlayerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
+    m_FontSize: 11
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: Player 1
 --- !u!114 &5999907577866340145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,9 +93,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  distanceFromTarget: {x: 1, y: 1, z: 1}
+  distanceFromTarget: {x: 1, y: 25, z: 1}
   gameCamera: {fileID: 0}
-  useValue: 1
+  useValue: 0
   value: 0
-  destroyThis: 1
-  moveThis: 1
+  destroyThis: 0
+  moveThis: 0

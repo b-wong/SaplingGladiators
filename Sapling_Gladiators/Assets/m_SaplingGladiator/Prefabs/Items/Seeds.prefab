@@ -100,7 +100,7 @@ MonoBehaviour:
   numberOfSeeds: 3
   delayBetweenSpawns: 0.3
   scatterFactor: 3
-  spawnDistanceFromEnemy: 2
+  spawnDistanceFromEnemy: 4.5
   seedPrefab: {fileID: 6766154792356863799, guid: d7f23e3166cb6d24b99b00c33891163b,
     type: 3}
   spawnEffect: {fileID: 3247671447599527159, guid: d6232edbd8d794345997fe4d140d134c,

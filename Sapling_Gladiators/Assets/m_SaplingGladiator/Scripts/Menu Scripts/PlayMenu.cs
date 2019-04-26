@@ -12,7 +12,17 @@ public class PlayMenu : MonoBehaviour
 
     public void classic()
     {
-        SceneManager.LoadScene("ClassicGame");
+        GameTimer.gameLength = 60;
+        ItemSpawner.itemSpawnProbability = 25;
+        ObstacleSpawner.obstacleSpawnProbability = 25;
+        if (tutorialButton)
+        {
+            SceneManager.LoadScene("Tutorial");
+        }
+        else
+        {
+            SceneManager.LoadScene("ClassicGame");
+        }
     }
 
     public void custom()

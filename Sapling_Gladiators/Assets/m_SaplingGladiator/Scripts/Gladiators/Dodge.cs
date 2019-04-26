@@ -13,6 +13,7 @@ public class Dodge : Ability
     public bool allowHorMovement; //Allow horizontal movement while dodging?
     public AnimationCurve dodgeMovementCurve;
     public Vector2 dodgeDirection;
+    public GameObject dodgeEffect;
 
     private Coroutine abilityCoroutine;
 
@@ -40,6 +41,7 @@ public class Dodge : Ability
     public void CallDodge()
     {
         //myPlayer.playerController.Dodge(dodgeDirection * CalculateVelocity());
+        //GameObject newDodgeEffect = Instantiate(dodgeEffect, transform.position, Quaternion.identity, myPlayer.transform);
         StartCoroutine(myPlayer.playerController.Dodge(distanceToDodge, dodgeTravelTime, dodgeDirection, dodgeMovementCurve));
         if (myPlayer.playerInventory.myCurrentItem != null)
         {

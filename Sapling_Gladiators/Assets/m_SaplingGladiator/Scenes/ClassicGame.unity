@@ -349,9 +349,9 @@ RectTransform:
   m_Father: {fileID: 736409461}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -391, y: -300}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -29, y: -10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &133514196
@@ -1671,7 +1671,7 @@ PrefabInstance:
     - target: {fileID: 2581630550977777500, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
         type: 3}
       propertyPath: health
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4166776753086960272, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
         type: 3}
@@ -1858,6 +1858,46 @@ PrefabInstance:
         type: 3}
       propertyPath: chargeCostPerSecond
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946844779609734569, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 871635895324870501, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: m_Text
+      value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 871635895324870501, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 4278229529
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088440913939168733, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: m_Text
+      value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: gameCamera
+      value: 
+      objectReference: {fileID: 984520275}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 190798396}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: distanceFromTarget.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: distanceFromTarget.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -5238,9 +5278,9 @@ RectTransform:
   m_Father: {fileID: 736409461}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -362, y: 290}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1993185878
@@ -5630,7 +5670,7 @@ PrefabInstance:
     - target: {fileID: 2581630550977777500, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
         type: 3}
       propertyPath: health
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4166776753086960272, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
         type: 3}
@@ -5852,6 +5892,31 @@ PrefabInstance:
         type: 3}
       propertyPath: chargeCostPerSecond
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946844779609734569, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 871635895324870501, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 4287627074
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 513426473}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: gameCamera
+      value: 
+      objectReference: {fileID: 984520275}
+    - target: {fileID: 7035256393544888498, guid: 068d38ea4e716c945bfbc07f2d91a1ed,
+        type: 3}
+      propertyPath: distanceFromTarget.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5165286010781371190, guid: 068d38ea4e716c945bfbc07f2d91a1ed, type: 3}
