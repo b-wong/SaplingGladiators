@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 956715675367764713}
   - component: {fileID: 36784531680006463}
   - component: {fileID: 1764954742222920345}
+  - component: {fileID: 5008973167319447403}
   m_Layer: 12
   m_Name: obstacle_02
   m_TagString: Obstacle
@@ -239,3 +240,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f949172e82eccb44a3d07328fe7ebd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5008973167319447403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8919892567644360970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403c8314e7038a64fb029655471db63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSize: 1
+  minSize: 0
+  shrinkDuration: 5
+  isShrinking: 0
+  isFullyShrunk: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
